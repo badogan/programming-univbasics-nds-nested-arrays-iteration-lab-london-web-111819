@@ -41,6 +41,6 @@ def total_even_pairs(src)
   # the number was even. Review the operator documentation if you've forgotten
   # this!
 end
-test_array=[["a","aa"],["b","bb"],["c","cc"]]
+test_array=[[1,2],[3,4],[6,8]]
 #join_ingredients(test_array)
 find_greater_pair(test_array)
