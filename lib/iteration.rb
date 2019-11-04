@@ -41,17 +41,19 @@ def total_even_pairs(src)
   # the number was even. Review the operator documentation if you've forgotten
   # this!
   i=0 
-  output_array=[]
+  sum=0
   while src[i] do
     first = src[i][0]
     second =src[i][1]
-    if (first %2 == 0) && (second %2 == 0) 
-    output_array[i] = src[i].max
+    if (first %2 == 0) && (second %2 == 0)
+      sum = first + second + sum
+    end
     i=i+1 
   end
-  puts output_array
-  return output_array
+  puts sum
+  return sum
 end
 test_array=[[1,2],[3,4],[6,8]]
 #join_ingredients(test_array)
-find_greater_pair(test_array)
+#find_greater_pair(test_array)
+total_even_pairs(test_array)
