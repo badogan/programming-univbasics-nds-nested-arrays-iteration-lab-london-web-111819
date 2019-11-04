@@ -9,9 +9,9 @@ def join_ingredients(src)
   i=0 
   output_array=[]
   while src[i] do
-    1st=src[i][0]
-    2nd=src[i][1]
-    output_array[i] = "I love " + 1st + " and "+ 2nd +" on my pizza"
+    first = src[i][0]
+    second =src[i][1]
+    output_array[i] = "I love " + first + " and "+ second +" on my pizza"
     i=i+1 
   end
   puts output_array
