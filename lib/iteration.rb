@@ -11,7 +11,7 @@ def join_ingredients(src)
   while src[i] do
     1st=src[i][0]
     2nd=src[i][1]
-    output_array[i] = "I love " + 1st + " and "+2nd+" on my pizza"
+    output_array[i] = "I love " + 1st + " and "+ 2nd +" on my pizza"
     i=i+1 
   end
   return output_array
@@ -32,3 +32,5 @@ def total_even_pairs(src)
   # the number was even. Review the operator documentation if you've forgotten
   # this!
 end
+
+join_ingredients
