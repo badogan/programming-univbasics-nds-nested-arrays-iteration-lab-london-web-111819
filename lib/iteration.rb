@@ -25,9 +25,7 @@ def find_greater_pair(src)
   i=0 
   output_array=[]
   while src[i] do
-    find_max = src[i].max
-    second =src[i][1]
-    output_array[i] = "I love " + first + " and "+ second +" on my pizza"
+    output_array[i] = src[i].max
     i=i+1 
   end
   puts output_array
@@ -44,4 +42,5 @@ def total_even_pairs(src)
   # this!
 end
 test_array=[["a","aa"],["b","bb"],["c","cc"]]
-join_ingredients(test_array)
+#join_ingredients(test_array)
+find_greater_pair(test_array)
