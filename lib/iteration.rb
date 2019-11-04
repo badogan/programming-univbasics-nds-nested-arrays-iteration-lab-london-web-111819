@@ -40,6 +40,17 @@ def total_even_pairs(src)
   # As a reminder any number % 2 will return 0 or 1. If the result is 0, then
   # the number was even. Review the operator documentation if you've forgotten
   # this!
+  i=0 
+  output_array=[]
+  while src[i] do
+    first = src[i][0]
+    second =src[i][1]
+    if (first %2 == 0) && (second %2 == 0) 
+    output_array[i] = src[i].max
+    i=i+1 
+  end
+  puts output_array
+  return output_array
 end
 test_array=[[1,2],[3,4],[6,8]]
 #join_ingredients(test_array)
