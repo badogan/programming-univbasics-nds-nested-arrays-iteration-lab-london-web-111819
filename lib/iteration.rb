@@ -32,5 +32,5 @@ def total_even_pairs(src)
   # the number was even. Review the operator documentation if you've forgotten
   # this!
 end
-
-join_ingredients
+test_array=[["a","aa"],["b","bb"],["c","cc"]]
+join_ingredients(test_array)
