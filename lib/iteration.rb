@@ -25,7 +25,7 @@ def find_greater_pair(src)
   i=0 
   output_array=[]
   while src[i] do
-    find_max = src[i][0]
+    find_max = src[i].max
     second =src[i][1]
     output_array[i] = "I love " + first + " and "+ second +" on my pizza"
     i=i+1 
