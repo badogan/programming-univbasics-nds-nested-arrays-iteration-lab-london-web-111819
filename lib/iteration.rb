@@ -14,6 +14,7 @@ def join_ingredients(src)
     output_array[i] = "I love " + 1st + " and "+ 2nd +" on my pizza"
     i=i+1 
   end
+  puts output_array
   return output_array
 end
 
